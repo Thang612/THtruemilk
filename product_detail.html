@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TH true MILK - True Happiness</title>
+    <link rel="shortcut icon" href="_images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product_detail.css">
+</head>
+
+<body>
+    <!-- scroll to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></button>
+    <!-- header -->
+    <div class="header flex">
+        <div class="header__logo">
+            <img src="_images/logo.png" alt="logo_THTrueMILK">
+        </div>
+        <ul class="header__nav flex">
+            <li><a href="#">CÂU CHUYỆN THẬT TH</a></li>
+            <li><a class="active" href="products.html">SẢN PHẨM</a></li>
+            <li><a href="#">KHUYẾN MÃI</a></li>
+            <li><a href="#">CỬA HÀNG</a></li>
+            <li><a href="#">TRUYỀN THỐNG</a></li>
+            <li><a href="#">TUYỂN DỤNG</a></li>
+        </ul>
+        <div class="header__more flex">
+            <div class="header__more-find">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="header__more-lang">
+                <img src="_images/lang_icon/Vie.png" alt="" srcset="">
+                <span>VN</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="header__more-bars" onclick="showMenu(this,1)">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="header__more-bars" onclick="showMenu(this,0)" style="display: none;">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu__container">
+        <div class="menu__content">
+            <ul class="">
+                <li><a href="#">CÂU CHUYỆN THẬT TH</a></li>
+                <li><a href="#">SẢN PHẨM</a></li>
+                <li><a href="#">KHUYẾN MÃI</a></li>
+                <li><a href="#">CỬA HÀNG</a></li>
+                <li><a href="#">TRUYỀN THỐNG</a></li>
+                <li><a href="#">TUYỂN DỤNG</a></li>
+                <li>
+                    <a href="#">
+                        <img src="_images/lang_icon/Vie.png" alt="" srcset="">
+                        <span>VN</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- heading -->
+    <h2>Trang chủ > Sản phẩm > Thực phẩm</h2>
+    <!-- end heading -->
+    <!-- main -->
+    <div class="main">
+        <div class="product flex">
+            <div class="product__img">
+                <div class="product__img-main">
+                    <img id="picChange" src="_images/productDetail/product_1.png" alt="product THtruemilk">
+                </div>
+                <div class="product__img-sub flex">
+                    <div class="sub-img active">
+                        <img src="/_images/productDetail/product_1.png" alt="product THtruemilk"
+                            onclick="changeImg(this)">
+                    </div>
+                    <div class="sub-img">
+                        <img src="/_images/productDetail/product_2.png" alt="product THtruemilk"
+                            onclick="changeImg(this)">
+                    </div>
+                    <div class="sub-img">
+                        <img src="/_images/productDetail/product_3.jpg" alt="product THtruemilk"
+                            onclick="changeImg(this)">
+                    </div>
+                </div>
+            </div>
+            <div class="product__detail">
+                <h3>Sữa Tươi Hữu Cơ TH true MILK Organic 500 ml</h3>    
+                <p class="price">32.000 ₫ (có VAT)</p>
+                <ul>
+                    <li>
+                        <img class="product__detail-icon"
+                            src="https://www.thmilk.vn/wp-content/uploads/2019/11/Shape-1.png" alt="shape-2">
+                        Quy cách đóng gói: hộp giấy
+                    </li>
+                    <li>
+                        <img class="icon1" src="https://www.thmilk.vn/wp-content/uploads/2019/11/drop.png" alt="drop">
+                        Dung tích: 500 ml
+                    </li>
+                </ul>
+                <a href="#">Mua hàng trực tuyến <i class="fa-solid fa-store"></i></a>
+
+                <p>– Hoàn toàn từ sữa tươi sạch nguyên chất của Trang trại TH</p>
+                <p>– Được sản xuất theo một quy trình sạch, khép kín từ đồng cỏ đến bàn ăn</p>
+                <p>– Không sử dụng chất bảo quản</p>
+                <br>
+                <p> Sản phẩm sữa tươi hữu cơ TH true MILK Organic vượt qua những tiêu chuẩn gắt gao về quy trình, công
+                    nghệ,
+                    với sự đầu tư nghiêm túc, bài bản, mang lại chất lượng vượt trội, đạt chứng nhận hữu cơ châu Âu.</p>
+                <br>
+                <p>Bao bì hộp giấy dung tích 500 ml lần đầu tiên được giới thiệu trên thị trường, được nghiên cứu phù
+                    hợp
+                    nhất với nhu cầu sử dụng của phần lớn các hộ gia đình tại Việt Nam.</p>
+            </div>
+        </div>
+        <hr>
+        <h3>Sản phẩm liên quan</h3>
+        <!-- slider-product -->
+        <div class="main__slider-container flex">
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (1).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (2).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (3).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (4).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (5).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (6).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (7).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (8).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (9).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+            <div class="main__slider-item">
+                <a href="products.html">
+                    <img src="_images/productsPage/product (10).png" alt="icon_THtruemilk">
+                </a>
+            </div>
+
+
+            <a class="main__slider-prev" onclick="slides_icon(-1)"><i class="fa-solid fa-caret-left"></i></a>
+            <a class="main__slider-next" onclick="slides_icon(1)"><i class="fa-solid fa-caret-right"></i></a>
+        </div>
+        <!-- end slider-product -->
+
+    </div>
+    <!-- end main -->
+
+    <!-- footer -->
+    <div class="footer">
+        <img src="_images/logo.png" alt="logo_THTrueMILK" srcset="">
+        <div class="footer__infor flex">
+            <div class="footer__infor-left">
+                <a href="#">Liên hệ</a>
+                <a href="#">Chăm sóc khách hàng</a>
+            </div>
+            <div class="footer__infor-center">
+                <a href="#">Dịch vụ giao hàng tận nhà</a>
+                <a href="#">Chính sách & Quy định chung</a>
+            </div>
+            <div class="footer__infor-right">
+                <a href="#">Tải ứng dụng</a>
+                <a href="#"><img src="_images/appstore.svg" alt="appstore"><img src="_images/ggplay.svg"
+                        alt="Google"></a>
+            </div>
+        </div>
+        <hr>
+        <p style="color: #bbb; padding: 10px;">Dang Trung Thang &#9400 29/10/2023</p>
+    </div>
+    <!-- end footer -->
+
+    <script src="js/main.js"></script>
+    <script src="js/product_detail.js"></script>
+</body>
+
+</html>
